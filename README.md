@@ -10,7 +10,7 @@ This project showcases the full ML pipeline, from data preprocessing to deployme
 ## 🚀 Demo
 
 🔗 **Live App:** Coming soon  
-📸 **Preview:
+📸 **Preview:**
 
 <div align="center">
   <img src="./app_Screenshot/20260209211208.png" alt="Cinematch Preview" width="500"/>
