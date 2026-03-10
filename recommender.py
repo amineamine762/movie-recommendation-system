@@ -15,7 +15,6 @@ def recommend(movie):
         reverse=True,
         key=lambda x: x[1]
     )[1:6]
-
     recommended_movies = []
     for i in movies_list:
         recommended_movies.append(new_df.iloc[i[0]].title)

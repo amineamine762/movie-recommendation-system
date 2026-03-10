@@ -1,4 +1,4 @@
-# 🎬 Cinematch – Movie Recommendation System
+#  Cinematch – Movie Recommendation System
 
 Cinematch is a **content-based movie recommendation system** built with Machine Learning and deployed using **Streamlit**.  
 It recommends movies similar to a selected title using movie metadata and **cosine similarity**.
@@ -7,10 +7,10 @@ This project showcases the full ML pipeline, from data preprocessing to deployme
 
 ---
 
-## 🚀 Demo
+##  Demo
 
-🔗 **Live App:** Coming soon  
-📸 **Preview:**
+ **Live App:** Coming soon  
+ **Preview:**
 
 <div align="center">
   <img src="./app_Screenshot/20260209211208.png" alt="Cinematch Preview" width="500"/>
@@ -18,19 +18,19 @@ This project showcases the full ML pipeline, from data preprocessing to deployme
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- 🎯 Content-based movie recommendation
-- 🔝 Returns **Top 5 most similar movies**
-- 🧠 Precomputed cosine similarity matrix
-- 🎥 Movie posters & metadata via **TMDB API**
-- 🎛️ Genre filtering & trending movies
-- 🖥️ Netflix-style premium UI (Streamlit)
-- ⚡ Optimized with caching for fast performance
+-  Content-based movie recommendation
+-  Returns **Top 5 most similar movies**
+-  Precomputed cosine similarity matrix
+-  Movie posters & metadata via **TMDB API**
+-  Genre filtering & trending movies
+- Netflix-style premium UI (Streamlit)
+-  Optimized with caching for fast performance
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python  
 - **Machine Learning:** pandas, numpy, scikit-learn  
@@ -40,7 +40,7 @@ This project showcases the full ML pipeline, from data preprocessing to deployme
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 ```text
 movie-recommendation-system/
@@ -61,27 +61,27 @@ movie-recommendation-system/
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The project uses rich **movie metadata**, including:
 
-- 🎬 **Movie title**
-- 🎭 **Genres**
-- 📝 **Overview** (description)
-- 🔥 **Popularity score**
-- ⭐ **Vote average**
-- 📅 **Release date**
+-  **Movie title**
+-  **Genres**
+-  **Overview** (description)
+-  **Popularity score**
+-  **Vote average**
+-  **Release date**
 
-### 📌 Data Sources
+###  Data Sources
 
-- 📊 **Kaggle** – TMDB movie dataset  
-- 🎥 **TMDB API** – Movie posters and additional metadata  
+-  **Kaggle** – TMDB movie dataset  
+-  **TMDB API** – Movie posters and additional metadata  
 
 ---
 
-## ⚙️ Installation
+## nstallation
 
-### 📥 Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/movie-recommendation-system.git
@@ -90,9 +90,9 @@ cd movie-recommendation-system
 
 ---
 
-## ▶️ Usage
+## Usage
 
-### 🚀 Run the Application
+###  Run the Application
 
 ```bash
 streamlit run app.py
@@ -100,50 +100,50 @@ streamlit run app.py
 
 ---
 
-## 🧭 How It Works
+##  How It Works
 
-- 🔍 Select a movie from the search box  
-- 🖱️ Click **Get Recommendations**  
-- 🎯 Instantly receive the **Top 5 most similar movies**
+-  Select a movie from the search box  
+-  Click **Get Recommendations**  
+-  Instantly receive the **Top 5 most similar movies**
 
 ---
 
-## 🧠 Recommendation Logic
+##  Recommendation Logic
 
 Cinematch uses a **content-based filtering** approach:
 
-- 🧹 Movie metadata is **preprocessed and combined**
-- 🔤 Text features are **vectorized**
-- 📐 Similarity is computed using **Cosine Similarity**
-- 💾 The similarity matrix is saved using **pickle**
-- 🏆 The system retrieves the **Top 5 closest movies** for a given title
+-  Movie metadata is **preprocessed and combined**
+-  Text features are **vectorized**
+-  Similarity is computed using **Cosine Similarity**
+-  The similarity matrix is saved using **pickle**
+-  The system retrieves the **Top 5 closest movies** for a given title
 
 ---
 
-## 📈 Performance & Optimization
+##  Performance & Optimization
 
-- ⚡ Fast inference using a **precomputed similarity matrix**
-- 🧠 Cached data loading with `@st.cache_data`
-- 📊 Efficient UI rendering and filtering with **Streamlit**
+-  Fast inference using a **precomputed similarity matrix**
+-  Cached data loading with `@st.cache_data`
+-  Efficient UI rendering and filtering with **Streamlit**
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
-- 🔄 Add **collaborative filtering**
-- 🧬 Build a **hybrid recommendation system**
-- 👤 User authentication & user profiles
-- ⭐ Rating-based personalization
-- ☁️ Cloud deployment  
+-  Add **collaborative filtering**
+-  Build a **hybrid recommendation system**
+-  User authentication & user profiles
+-  Rating-based personalization
+- Cloud deployment  
   *(Streamlit Cloud / AWS / Hugging Face)*
 
 ---
 
-## 👤 Author
+##  Author
 
 **Amine El-baydaouy**  
-🎓 Engineering Student | 🤖 AI & Data Science Enthusiast  
+ Engineering Student |  AI & Data Science Enthusiast  
 
-- 💻 GitHub: https://github.com/amineamine762  
-- 🔗 LinkedIn: https://www.linkedin.com/in/amine-el-baydaouy/ 
+-  GitHub: https://github.com/amineamine762  
+-  LinkedIn: https://www.linkedin.com/in/amine-el-baydaouy/ 
 
